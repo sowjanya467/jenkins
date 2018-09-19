@@ -15,7 +15,7 @@ public class JenkinsDemoApplication {
 	@GetMapping("/")
 	public String sample()
 	{
-		return "Sample method";
+		return "hello";
 		
 	}
 }
