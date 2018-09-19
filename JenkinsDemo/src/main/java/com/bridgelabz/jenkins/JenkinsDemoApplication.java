@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
-public class JenkinsApplication {
+public class JenkinsDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JenkinsApplication.class, args);
+		SpringApplication.run(JenkinsDemoApplication.class, args);
 	}
 	@GetMapping("/")
 	public String sample()
